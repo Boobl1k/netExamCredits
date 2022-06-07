@@ -66,7 +66,7 @@ public class CreditScoresService
             ? 0
             : goal is Goal.OnLending
                 ? 0
-                : 15;
+                : -15;
 
         //Сумма
         score += sum switch
